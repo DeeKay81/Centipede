@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Javascript Game</title>
+    <meta charset="UTF-8">
+    <style>
+        h1 {text-align: center}
+    </style>
+    <link rel="stylesheet" href="main.css"/>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+    </style>
+
+</head>
+<body style="background-image: url('stats/bg.jpg'); background-size: cover; background-repeat: no-repeat;">
+    <div class="musicOn">
+        <audio id="backgroundMusic" src="./stats/bittrip_kurz.mp3" preload="auto"></audio>
+    </div>
+    <div class = "playground">
+
+        <h1 style="color: lavender">The Centipede</h1>
+
+        <div class="header t-round">
+
+            <h2 style="color: black">Current Score: </h2> <h2 class="scoreboard" style="color: black">0</h2>
+            <h2 style="color: black">High Score: </h2> <h2 class="highscoreboard" style="color: black">0</h2>
+            <h2 class="on-off-button">
+                <button id="on-off-button" onclick="play()">Sound ON/OFF</button>
+            </h2>
+        </div>
+        <div id="game-area" ></div>
+        <div class="footer b-round">
+            <p>BRADPlay - Codecool Vienna 21'/'22</p>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>

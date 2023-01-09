@@ -1,0 +1,13 @@
+:root {
+    --game-board-width: 600px;
+    --field-width: 20px;
+    --bg-body: #faeee7;
+    --color-body: #594a4e;
+    --bg-board: #ffc6c7;
+    --bg-centipede: white;
+    --bg-apple: #c3f0ca;
+    --bg-border: #594a4e;
+    --bg-header: lightgray;
+    --color-header: darkslategray;
+    --boarder-width: 6px;
+}
